@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dilrukshan | Creative Technologist</title>
+  <meta name="description" content="Portfolio of Dilrukshan - Innovative Tech Creator">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Background Globe Canvas -->
+  <canvas id="globe-canvas" class="globe-canvas" aria-hidden="true"></canvas>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo">Dilrukshan<span class="dot">.</span></a>
+      <button class="mobile-toggle" aria-label="Toggle Navigation">
+        <i class="ri-menu-4-line"></i>
+      </button>
+      <nav class="site-nav">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#gallery" class="nav-link">Gallery</a>
+        <a href="#contact" class="nav-link btn-primary">Contact Me</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <span class="hero-label">Hello, I am</span>
+          <h1 class="hero-title">Dilrukshan</h1>
+          <p class="hero-subtitle">Innovative tech creator blending tradition, vision, and real-world impact.</p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Let's Talk <i class="ri-arrow-right-line"></i></a>
+            <a href="#gallery" class="btn btn-outline">View Work</a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-num">3+</span>
+              <span class="stat-desc">Years Exp.</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">20+</span>
+              <span class="stat-desc">Projects</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <!-- The globe will be behind, this space is for layout balance or a floating profile image if desired -->
+          <div class="profile-card glass-panel">
+            <div class="profile-img-container">
+              <!-- Placeholder for profile, or use one of the uploaded images if suitable. Using a generic placeholder for now or CSS shape -->
+              <div class="profile-placeholder"><i class="ri-user-smile-line"></i></div>
+            </div>
+            <div class="profile-info">
+              <h3>Dilrukshan</h3>
+              <p>Tech Enthusiast</p>
+              <div class="social-links">
+                <a href="https://www.linkedin.com/in/dilrukshan/"><i class="ri-linkedin-fill"></i></a>
+                <a href="https://github.com/Dilrukshan7"><i class="ri-github-fill"></i></a>
+                <a href="https://www.instagram.com/__dilrukshan/"><i class="ri-instagram-line"></i></a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-indicator">
+        <span>Scroll Down</span>
+        <i class="ri-arrow-down-line"></i>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">About Me</h2>
+          <p class="section-desc">Driven by curiosity, rooted in discipline.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="feature-card glass-panel">
+            <div class="icon-box"><i class="ri-lightbulb-flash-line"></i></div>
+            <h3>Innovative</h3>
+            <p>Blending creative vision with technical expertise to build unique digital solutions.</p>
+          </div>
+          <div class="feature-card glass-panel">
+            <div class="icon-box"><i class="ri-tools-line"></i></div>
+            <h3>Practical</h3>
+            <p>Crafting meaningful tools that solve real problems and uplift user experiences.</p>
+          </div>
+          <div class="feature-card glass-panel">
+            <div class="icon-box"><i class="ri-database-2-line"></i></div>
+            <h3>Disciplined</h3>
+            <p>Building with a focus on legacy, maintainability, and robust architecture.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">My Skills</h2>
+          <p class="section-desc">Technologies I work with.</p>
+        </div>
+
+        <div class="skills-wrapper glass-panel">
+          <div class="skill-tag"><i class="ri-html5-fill"></i> HTML5</div>
+          <div class="skill-tag"><i class="ri-css3-fill"></i> CSS3</div>
+          <div class="skill-tag"><i class="ri-javascript-fill"></i> JavaScript</div>
+          <div class="skill-tag"><i class="ri-reactjs-fill"></i> React</div>
+          <div class="skill-tag"><i class="ri-nodejs-fill"></i> Node.js</div>
+          <div class="skill-tag"><i class="ri-database-2-fill"></i> SQL</div>
+          <div class="skill-tag"><i class="ri-git-merge-fill"></i> Git</div>
+          <div class="skill-tag"><i class="ri-code-s-slash-line"></i> Three.js</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section gallery">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Gallery</h2>
+          <p class="section-desc">A glimpse into my world.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-item item-1">
+            <img src="img/1.jpg" alt="Gallery Image 1" loading="lazy">
+            <div class="overlay"><i class="ri-zoom-in-line"></i></div>
+          </div>
+          <div class="gallery-item item-2">
+            <img src="img/2.jpg" alt="Gallery Image 2" loading="lazy">
+            <div class="overlay"><i class="ri-zoom-in-line"></i></div>
+          </div>
+          <div class="gallery-item item-3">
+            <img src="img/3.jpg" alt="Gallery Image 3" loading="lazy">
+            <div class="overlay"><i class="ri-zoom-in-line"></i></div>
+          </div>
+          <div class="gallery-item item-4">
+            <img src="img/4.jpg" alt="Gallery Image 4" loading="lazy">
+            <div class="overlay"><i class="ri-zoom-in-line"></i></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <div class="contact-wrapper glass-panel">
+          <div class="contact-info">
+            <h3>Get in Touch</h3>
+            <p>Have a project in mind or just want to say hi? I'd love to hear from you.</p>
+
+            <div class="contact-details">
+              <div class="c-item">
+                <i class="ri-mail-send-line"></i>
+                <span>Dilrukshanofficial@gmail.com</span>
+              </div>
+              <div class="c-item">
+                <i class="ri-map-pin-line"></i>
+                <span>Hatton, Sri Lanka</span>
+              </div>
+            </div>
+          </div>
+
+          <form id="contact-form" class="contact-form" action="https://formsubmit.co/Dilrukshanofficial@gmail.com"
+            method="POST">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" placeholder="How can I help you?" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Send Message <i
+                class="ri-send-plane-fill"></i></button>
+            <input type="hidden" name="_next" value="thankyou.html">
+            <input type="hidden" name="_redirect" value="thankyou.html">
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Dilrukshan. All rights reserved.</p>
+      <p class="credit">Developed by <a href="#">Blansyn.Online</a></p>
+    </div>
+  </footer>
+
+  <!-- Three.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <!-- GSAP for animations (optional but nice for premium feel) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
