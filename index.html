@@ -3,21 +3,19 @@
 
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-67QK63BH07"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-67QK63BH07"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  gtag('config', 'G-3Q6WZYCLXM');
-</script>
+    gtag('config', 'G-3Q6WZYCLXM');
+  </script>
 
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
- <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dilrukshan | Creative Technologist</title>
-     <meta name="description" content="Official portfolio of Dilrukshan Gnanasegar  (also known as Dilukshan), founder of Blansyn. A tech enthusiast from Sri Lanka showcasing innovation, coding, and entrepreneurship.">
+  <title>Dilrukshan | Creative Technologist</title>
+  <meta name="description" content="Official portfolio of Dilrukshan Gnanasegar  (also known as Dilukshan), founder of Blansyn. A tech enthusiast from Sri Lanka showcasing innovation, coding, and entrepreneurship.">
   <meta name="keywords" content="Dilrukshan, Gnanasegar Dilrukshan, dilrukshan gnanasegar, Rukshan, Blansyn, Sri Lanka, Sri Lankan tech, tech portfolio, tech entrepreneur, software developer, coding projects,founder blansyn,owner blansyn">
   <meta name="author" content="Dilrukshan Gnanasegar">
   <meta name="robots" content="index, follow">
@@ -43,7 +41,8 @@
   <!-- Canonical (Avoid duplicate URLs) -->
   <link rel="canonical" href="https://dilrukshan.blansyn.online" />
 
-
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%2305070d'/%3E%3Ctext x='32' y='44' font-family='Arial,sans-serif' font-size='36' font-weight='bold' fill='%234d8dff' text-anchor='middle'%3ED%3C/text%3E%3C/svg%3E">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -59,101 +58,91 @@
 </head>
 
 <body>
-  <!-- Background Globe Canvas -->
+  <!-- Background space scene -->
   <canvas id="globe-canvas" class="globe-canvas" aria-hidden="true"></canvas>
+  <div class="grain" aria-hidden="true"></div>
 
   <header class="site-header">
     <div class="container header-inner">
       <a href="#" class="logo">Dilrukshan<span class="dot">.</span></a>
-      <button class="mobile-toggle" aria-label="Toggle Navigation">
+      <button class="mobile-toggle" aria-label="Toggle Navigation" aria-expanded="false">
         <i class="ri-menu-4-line"></i>
       </button>
       <nav class="site-nav">
         <a href="#about" class="nav-link">About</a>
         <a href="#skills" class="nav-link">Skills</a>
         <a href="#gallery" class="nav-link">Gallery</a>
-        <a href="#contact" class="nav-link btn-primary">Contact Me</a>
+        <a href="#contact" class="nav-link nav-cta">Let's Talk</a>
       </nav>
     </div>
   </header>
 
   <main>
     <section class="hero">
-      <div class="container hero-content">
+      <div class="container hero-grid">
         <div class="hero-text">
-          <span class="hero-label">Hello, I am</span>
-          <h1 class="hero-title">Dilrukshan</h1>
-          <p class="hero-subtitle">Innovative tech creator blending tradition, vision, and real-world impact.</p>
-          <div class="hero-actions">
-            <a href="#contact" class="btn btn-primary">Let's Talk <i class="ri-arrow-right-line"></i></a>
-            <a href="#gallery" class="btn btn-outline">View Work</a>
+          <p class="hero-eyebrow" data-fade><span class="eyebrow-rule"></span>Hello, I'm</p>
+          <h1 class="hero-title" data-split>Dilrukshan</h1>
+          <p class="hero-subtitle" data-fade>Innovative tech creator blending tradition, vision, and real-world impact.</p>
+          <div class="hero-actions" data-fade>
+            <a href="#contact" class="btn btn-primary" data-magnetic>Let's Talk <i class="ri-arrow-right-line"></i></a>
+            <a href="#gallery" class="btn btn-ghost" data-magnetic>View Work</a>
           </div>
 
-          <div class="hero-stats">
+          <div class="hero-stats" data-fade>
             <div class="stat-item">
-              <span class="stat-num">3+</span>
+              <span class="stat-num"><span data-count="3">0</span>+</span>
               <span class="stat-desc">Years Exp.</span>
             </div>
             <div class="stat-item">
-              <span class="stat-num">20+</span>
+              <span class="stat-num"><span data-count="20">0</span>+</span>
               <span class="stat-desc">Projects</span>
             </div>
           </div>
         </div>
 
-        <div class="hero-visual">
-          <!-- The globe will be behind, this space is for layout balance or a floating profile image if desired -->
-          <div class="profile-card glass-panel">
-            <div class="profile-img-container">
-              <!-- Placeholder for profile, or use one of the uploaded images if suitable. Using a generic placeholder for now or CSS shape -->
-              <div class="profile-placeholder"><img src="img/1.jpg" alt="" style="
-        width:150px;
-        height:150px;
-        border-radius:50%;
-        object-fit:cover;
-        aspect-ratio:1/1;
-        display:inline-block;
-     "></div>
+        <div class="hero-visual" data-fade>
+          <article class="profile-card" data-tilt>
+            <div class="card-glare" aria-hidden="true"></div>
+            <div class="profile-img-ring">
+              <img src="img/1.jpg" alt="Portrait of Dilrukshan" class="profile-img">
             </div>
             <div class="profile-info">
               <h3>Dilrukshan</h3>
               <p>Tech Enthusiast</p>
               <div class="social-links">
-                <a href="https://www.linkedin.com/in/dilrukshan/"><i class="ri-linkedin-fill"></i></a>
-                <a href="https://github.com/Dilrukshan7"><i class="ri-github-fill"></i></a>
-                <a href="https://www.instagram.com/__dilrukshan/"><i class="ri-instagram-line"></i></a>
-
+                <a href="https://www.linkedin.com/in/dilrukshan/" aria-label="LinkedIn"><i class="ri-linkedin-fill"></i></a>
+                <a href="https://github.com/Dilrukshan7" aria-label="GitHub"><i class="ri-github-fill"></i></a>
+                <a href="https://www.instagram.com/__dilrukshan/" aria-label="Instagram"><i class="ri-instagram-line"></i></a>
               </div>
             </div>
-          </div>
+          </article>
         </div>
-      </div>
-
-      <div class="scroll-indicator">
-        <span>Scroll Down</span>
-        <i class="ri-arrow-down-line"></i>
       </div>
     </section>
 
     <section id="about" class="section about">
       <div class="container">
-        <div class="section-header">
+        <div class="section-head" data-reveal>
           <h2 class="section-title">About Me</h2>
           <p class="section-desc">Driven by curiosity, rooted in discipline.</p>
         </div>
 
         <div class="about-grid">
-          <div class="feature-card glass-panel">
+          <figure class="about-cell cell-photo" data-reveal>
+            <img src="img/1.jpg" alt="Dilrukshan at work" loading="lazy">
+          </figure>
+          <div class="about-cell cell-feature" data-reveal>
             <div class="icon-box"><i class="ri-lightbulb-flash-line"></i></div>
             <h3>Innovative</h3>
             <p>Blending creative vision with technical expertise to build unique digital solutions.</p>
           </div>
-          <div class="feature-card glass-panel">
+          <div class="about-cell" data-reveal>
             <div class="icon-box"><i class="ri-tools-line"></i></div>
             <h3>Practical</h3>
             <p>Crafting meaningful tools that solve real problems and uplift user experiences.</p>
           </div>
-          <div class="feature-card glass-panel">
+          <div class="about-cell" data-reveal>
             <div class="icon-box"><i class="ri-database-2-line"></i></div>
             <h3>Disciplined</h3>
             <p>Building with a focus on legacy, maintainability, and robust architecture.</p>
@@ -164,59 +153,59 @@
 
     <section id="skills" class="section skills">
       <div class="container">
-        <div class="section-header">
+        <div class="section-head" data-reveal>
           <h2 class="section-title">My Skills</h2>
           <p class="section-desc">Technologies I work with.</p>
         </div>
+      </div>
 
-        <div class="skills-wrapper glass-panel">
-          <div class="skill-tag"><i class="ri-html5-fill"></i> HTML5</div>
-          <div class="skill-tag"><i class="ri-css3-fill"></i> CSS3</div>
-          <div class="skill-tag"><i class="ri-javascript-fill"></i> JavaScript</div>
-          <div class="skill-tag"><i class="ri-reactjs-fill"></i> React</div>
-          <div class="skill-tag"><i class="ri-nodejs-fill"></i> Node.js</div>
-          <div class="skill-tag"><i class="ri-database-2-fill"></i> SQL</div>
-          <div class="skill-tag"><i class="ri-git-merge-fill"></i> Git</div>
-          <div class="skill-tag"><i class="ri-code-s-slash-line"></i> Three.js</div>
+      <div class="marquee" data-reveal>
+        <div class="marquee-track">
+          <div class="marquee-group">
+            <div class="skill-tag"><i class="ri-html5-fill"></i> HTML5</div>
+            <div class="skill-tag"><i class="ri-css3-fill"></i> CSS3</div>
+            <div class="skill-tag"><i class="ri-javascript-fill"></i> JavaScript</div>
+            <div class="skill-tag"><i class="ri-reactjs-fill"></i> React</div>
+            <div class="skill-tag"><i class="ri-nodejs-fill"></i> Node.js</div>
+            <div class="skill-tag"><i class="ri-database-2-fill"></i> SQL</div>
+            <div class="skill-tag"><i class="ri-git-merge-fill"></i> Git</div>
+            <div class="skill-tag"><i class="ri-code-s-slash-line"></i> Three.js</div>
+          </div>
         </div>
       </div>
     </section>
 
     <section id="gallery" class="section gallery">
       <div class="container">
-        <div class="section-header">
+        <div class="section-head" data-reveal>
           <h2 class="section-title">Gallery</h2>
           <p class="section-desc">A glimpse into my world.</p>
         </div>
 
         <div class="gallery-grid">
-          <div class="gallery-item item-1">
+          <figure class="gallery-item item-1" data-reveal data-speed="0.9">
             <img src="img/1.jpg" alt="Gallery Image 1" loading="lazy">
             <div class="overlay"><i class="ri-zoom-in-line"></i></div>
-          </div>
-          <div class="gallery-item item-2">
+          </figure>
+          <figure class="gallery-item item-2" data-reveal data-speed="1.15">
             <img src="img/2.jpg" alt="Gallery Image 2" loading="lazy">
             <div class="overlay"><i class="ri-zoom-in-line"></i></div>
-          </div>
-          <div class="gallery-item item-3">
+          </figure>
+          <figure class="gallery-item item-3" data-reveal data-speed="1.05">
             <img src="img/3.jpg" alt="Gallery Image 3" loading="lazy">
             <div class="overlay"><i class="ri-zoom-in-line"></i></div>
-          </div>
-          <div class="gallery-item item-4">
+          </figure>
+          <figure class="gallery-item item-4" data-reveal data-speed="0.95">
             <img src="img/4.jpg" alt="Gallery Image 4" loading="lazy">
             <div class="overlay"><i class="ri-zoom-in-line"></i></div>
-          </div>
-           <!-- <div class="gallery-item item-5">
-            <img src="img/4.jpg" alt="Gallery Image 5" loading="lazy">
-            <div class="overlay"><i class="ri-zoom-in-line"></i></div>
-          </div> -->
+          </figure>
         </div>
       </div>
     </section>
 
     <section id="contact" class="section contact">
       <div class="container">
-        <div class="contact-wrapper glass-panel">
+        <div class="contact-wrapper" data-reveal>
           <div class="contact-info">
             <h3>Get in Touch</h3>
             <p>Have a project in mind or just want to say hi? I'd love to hear from you.</p>
@@ -236,20 +225,20 @@
           <form id="contact-form" class="contact-form" action="https://formsubmit.co/dilrukshanofficial@gmail.com" method="POST">
             <div class="form-group">
               <label for="name">Name</label>
-              <input type="text" id="name" name="name" placeholder="Your Name" required>
+              <input type="text" id="name" name="name" placeholder="Your Name" autocomplete="name" required>
             </div>
             <div class="form-group">
               <label for="email">Email</label>
-              <input type="email" id="email" name="email" placeholder="Your Email" required>
+              <input type="email" id="email" name="email" placeholder="Your Email" autocomplete="email" required>
             </div>
             <div class="form-group">
               <label for="message">Message</label>
               <textarea id="message" name="message" rows="4" placeholder="How can I help you?" required></textarea>
             </div>
-            <button type="submit" class="btn btn-primary btn-block">Send Message <i
+            <button type="submit" class="btn btn-primary btn-block" data-magnetic>Send Message <i
                 class="ri-send-plane-fill"></i></button>
-                <input type="hidden" name="_next" value="https://dilrukshan.blansyn.online/thankyou.html">
-                <input type="hidden" name="_redirect" value="https://dilrukshan.blansyn.online/thankyou.html">
+            <input type="hidden" name="_next" value="https://dilrukshan.blansyn.online/thankyou.html">
+            <input type="hidden" name="_redirect" value="https://dilrukshan.blansyn.online/thankyou.html">
           </form>
         </div>
       </div>
@@ -257,26 +246,25 @@
   </main>
 
   <footer class="site-footer">
-    <div class="container">
+    <div class="container footer-inner">
       <p>&copy; 2025 Dilrukshan. All rights reserved.</p>
       <p class="credit">Developed by <a href="https://www.blansyn.com/">Blansyn</a></p>
     </div>
   </footer>
 
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" hidden>
+    <button class="lightbox-close" aria-label="Close image viewer"><i class="ri-close-line"></i></button>
+    <img src="" alt="" class="lightbox-img">
+  </div>
+
   <!-- Three.js -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-  <!-- GSAP for animations (optional but nice for premium feel) -->
+  <!-- GSAP -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 
   <script src="script.js"></script>
 </body>
 
-
 </html>
-
-
-
-
-
-
