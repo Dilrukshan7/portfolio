@@ -521,6 +521,11 @@ a {
   grid-row: span 1;
 }
 
+.item-5 {
+  grid-column: span 1;
+  grid-row: span 3;
+}
+
 /* Contact */
 .contact-wrapper {
   display: grid;
@@ -653,7 +658,8 @@ a {
   .item-1,
   .item-2,
   .item-3,
-  .item-4 {
+  .item-4,
+  .item-5 {
     grid-column: span 1;
     grid-row: span 1;
     height: 250px;
